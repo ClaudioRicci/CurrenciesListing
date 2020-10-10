@@ -10,9 +10,9 @@ const columnHeaders: string[] = [
 const TableHeader = () => (
   <thead>
     <tr>
-      {columnHeaders.map(columnHeader => {
-        <th>{columnHeader}</th>;
-      })}
+      {columnHeaders.map(columnHeader => (
+        <th>{columnHeader}</th>
+      ))}
     </tr>
   </thead>
 );
