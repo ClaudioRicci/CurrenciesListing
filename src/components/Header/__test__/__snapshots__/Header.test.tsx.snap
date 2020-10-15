@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Tag Tests Caption Renders Correctly and matches Snapshot 1`] = `
+<caption>
+  test
+</caption>
+`;

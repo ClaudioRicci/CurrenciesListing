@@ -1,0 +1,17 @@
+tbody {
+  tr {
+    td {
+      border: 1px #ccc solid;
+      color: #000;
+      font: 400 1rem Arial;
+      padding: 1rem;
+      text-align: left;
+    }
+  }
+  tr:nth-child(even) {
+    background: #f6f8fa;
+  }
+  tr:nth-child(odd) {
+    background: #fff;
+  }
+}
